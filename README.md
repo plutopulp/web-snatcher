@@ -1,6 +1,8 @@
 # Web Snatcher
 
 A cheeky little tool for turning web pages into PDFs.
+I use it for a specific news outlet (the42.ie) with HTML-heavy pages.
+This tool will probably work poorly for JS heavy sites or those which enforce paywalls properly at the API-level.
 
 ## Why?
 
@@ -18,6 +20,7 @@ Or maybe because sometimes you just want to read an article without all the extr
 
 1. Clone this repo
 2. Install the dependencies (we use Poetry, so `poetry install` should do the trick)
+3. install wkhtmltopdf
 
 ## Usage
 
